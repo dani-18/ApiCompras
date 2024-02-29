@@ -1,22 +1,3 @@
-## Cómo clonar el proyecto en un servidor Local
-    
-1. <b>git clone https://github.com/adersonjara/apiRestFullComprasProductosYoutube.git</b>
-2. <b>cd apiRestFullComprasProductosYoutube</b>
-3. Instalar las dependencias del proyecto con: <b>composer install</b>
-4. Configurar el archivo <b>.env.example</b> y dejarlo como <b>.env</b> y dentro colocar todas las variables de entorno de nuestro proyecto.
-5. Creamos la base de datos para nuestro proyecto.
-6. Generar una <b>APP_KEY</b> que es una llave para cada proyecto de Laravel se puede generar con este comando: <b>php artisan key:generate</b>
-6. Generar las migraciones y ejecutar los seeders para nuestras tablas de base de datos con este comando: <b>php artisan migrate --seed</b>
-
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

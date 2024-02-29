@@ -59,7 +59,11 @@ class ProductoController extends Controller
             $producto = Producto::with('marca','categoria')->findOrFail($id);
             return ApiResponse::success('Producto obtenido exitosamente', 200,$producto);
         } catch (ModelNotFoundException $e) {
+<<<<<<< HEAD
             return ApiResponse::error('Producto no encontrada', 404);
+=======
+            return ApiResponse:: error('Producto no encontrado ' , 404,$errors);
+>>>>>>> 98470c011cbcdcb0a2fe6c9c9d744346a4b825ea
         }
     }
 
